@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --cinza:#F4F2EE;
+    --branco:#ffffff;
+    --azul:#0A66C2;
+}
+
+body{
+    background: var(--cinza) !important;
+    min-height: 100vh;
+    width: 100%;
+}

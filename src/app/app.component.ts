@@ -9,7 +9,26 @@ import { HeaderComponent } from "./layout/header/header.component";
   template: `
     <app-header/>
     <div class="container py-2">
-      <router-outlet />
+      <div class="row">
+      <div class="col-2">
+        <div class="card">
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="col-7">
+        <div class="card">
+          <div class="card-body">
+            <router-outlet />
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-body"></div>
+        </div>
+      </div>
+    </div>
+      
     </div>
     
   `,

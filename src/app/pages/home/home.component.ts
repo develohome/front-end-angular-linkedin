@@ -5,12 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
-      home works!
-    </p>
+    
+    
   `,
   styles: ``
 })
 export class HomeComponent {
-
+  minhaUrl:any = "https://drive.google.com/uc?export=view&id=1aUIdIhna9B22OChWpchpuVULqfQKWjot"
 }
